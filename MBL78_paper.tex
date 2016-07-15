@@ -254,6 +254,16 @@ Graduate School of Business Administration and Computer Science, Aichi Institute
 \subsection{実験結果と評価}
 センサデバイスから発信されるibeacon識別子範囲内にセンシングアプリケーションがインストールされたスマートフォンが侵入し，ibeacon識別子範囲内でBLE通信を用いてセンサデバイスを探索し，探索後，温湿度データを収集，収取したデータをサーバに転送し，センサデバイスにデータが正しく転送された事を通知するまでの時間は平均約3.8秒必要である事があった．従って，iOSのバックグラウンド処理制約の約10秒の制約内で処理が完結することが確認でき現実的に実現可能である事が確認できた．実験結果を図\ref{TimeT}に示す．
 
+
+\begin{figure}[t]
+ \begin{center}
+  \includegraphics[keepaspectratio, width=80mm,height=40mm]{TotalTime.eps}
+ \end{center}
+ \caption{Total processing time}
+ \label{TimeT}
+\end{figure}
+
+
 %\label{config}
 
 %ファイルは次のようになる．下線部は投稿時に省略可能なもの．またトランザク
